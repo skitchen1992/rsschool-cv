@@ -1,12 +1,7 @@
 
-
 # Nikita Lavrentev
 
-
-
-### Frontend Developer
-
-****
+## Frontend Developer
 
 ### Contacts
 
