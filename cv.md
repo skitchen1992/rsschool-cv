@@ -43,13 +43,7 @@ Overall, I am a dedicated and enthusiastic frontend developer who is committed t
 Here's a simple JavaScript code example that demonstrates how to create a function to calculate the factorial of a number using a recursive approach:
 
 ```
-function factorial(n) {
-  if (n === 0) {
-    return 1;
-  } else {
-    return n * factorial(n - 1);
-  }
-}
+const factorial = (n) => (n === 0 ? 1 : n * factorial(n - 1));
 ```
 
 ### Education:
