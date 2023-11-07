@@ -56,7 +56,7 @@ function factorial(n) {
 
 **2022 - 2023** - Yandex Practicum, Frontend Developer
 
-**2020 - 2021** - IT Incubator, Frontend Developer
+**2021 - 2021** - IT Incubator, Frontend Developer
 
 **2019 - 2020** - IT Academy STEP, Frontend Developer
 
