@@ -1,6 +1,8 @@
-.menu{
+.link-icon{
   position: relative;
-  display: inline-block;
+  display: flex;
+  gap: 4px;
+  align-items: center;
   overflow: hidden;
   font-size: var(--font-size-link-button);
   line-height: var(--line-height-link-button);
@@ -9,15 +11,9 @@
   text-decoration: none;
   color: var(--text-color-dark);
   cursor: pointer;
-
-  .menu-item{
-    display: flex;
-    gap: 4px;
-    align-items: center;
-  }
 }
 
-.menu::before {
+.link-icon::before {
   content: "";
   position: absolute;
   width: 0;
@@ -29,7 +25,7 @@
   transition: width 0.3s ease;
 }
 
-.menu:hover::before {
+.link-icon:hover::before {
   width: 100%;
 }
 

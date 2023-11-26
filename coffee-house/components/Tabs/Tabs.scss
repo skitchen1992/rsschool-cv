@@ -1,0 +1,54 @@
+.tabs {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid var(--border-color-light);
+  border-radius: 100px;
+}
+.tab__circle{
+  background-color: var(--border-color-light);
+}
+
+.tab:hover,
+.tab.active {
+  background: var(--bg-color-container);
+  border: 1px solid var(--bg-color-container);
+  color: var(--text-color-light);
+}
+
+.tab:hover .tab__circle {
+  background-color: var(--bg-color-body);
+  border: 1px solid var(--bg-color-body);
+}
+
+.tab .tab__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--border-color-light);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.tab .tab__circle.active {
+  border: 1px solid var(--border-color-light);
+  background-color: var(--bg-color-body);
+}
+
+.tab .tab__circle img {
+  width: 20px;
+  height: 20px;
+  margin: 0; /* Add this line */
+}
+

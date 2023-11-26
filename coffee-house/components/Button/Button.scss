@@ -5,7 +5,7 @@
   border-radius: 100px;
   background: var(--bg-color-body);
   color: var(--text-color-dark);
-  border: 1px solid var(--bg-color-body);
+  border: 1px solid var(--border-color-light);
   width: 200px;
 
   font-size: var(--font-size-link-button);
@@ -19,7 +19,7 @@
   border-radius: 100px;
   background: var(--bg-color-body);
   color: var(--text-color-dark);
-  border: 1px solid var(--bg-color-body);
+  border: 1px solid var(--border-color-dark);
   width: 200px;
 
   font-size: var(--font-size-link-button);
@@ -58,14 +58,14 @@
   justify-content: center;
   align-items: center;
   border-radius: 100px;
-  background: var(--bg-color-body);
+  background: transparent;
   border: 1px solid var(--border-color-light);
   width: 60px;
   height: 60px;
   cursor: pointer;
 
   &:hover {
-    background: var(--bg-color-body);
+    background: var(--border-color-dark);
     border: 1px solid var(--bg-color-body);
   }
 }

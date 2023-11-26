@@ -71,8 +71,24 @@
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
+.mt-12 {
+  margin-top: 12px;
+}
+
 .mt-16 {
   margin-top: 16px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-40 {
+  margin-top: 40px;
 }
 
 .mt-60{
@@ -112,6 +128,7 @@
   font-weight: var(--font_weight-caption);
   font-family: var(--font-family);
 }
+
 
 .accent {
   font-style: var(--font-style);

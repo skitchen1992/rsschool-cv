@@ -1,19 +1,20 @@
-import './MenuItem.scss';
+import './LinkIcon.scss';
 
-class MenuItem {
-    constructor(parentSelector, label, iconPath, alt) {
+class LinkIcon {
+    constructor(parentSelector, label, iconPath, href) {
         this.parent = document.querySelector(parentSelector);
         this.label = label;
         this.iconPath = iconPath;
-        this.alt = alt;
+        this.href = href;
     }
 
     createElement() {
-        const element = document.createElement('div');
-        element.classList.add("menu-item")
+        const element = document.createElement('a');
+        element.href = this.href;
+        element.classList.add("link-icon")
 
         element.innerHTML = `
-                <div class="menu-item__label">${this.label}</div>
+                <div class="link-icon__label">${this.label}</div>
                 <img src="${this.iconPath}" alt="${this.alt}">
             `;
 
@@ -25,4 +26,4 @@ class MenuItem {
     }
 }
 
-export default MenuItem;
+export default LinkIcon;
