@@ -10,7 +10,6 @@
 
   img {
     width: 310px;
-
     object-fit: cover;
     border-radius: 40px;
   }
@@ -20,7 +19,7 @@
     flex-direction: column;
     padding: 20px;
 
-    :last-child{
+    :last-child {
       position: absolute;
       bottom: 10px;
       left: 20px;

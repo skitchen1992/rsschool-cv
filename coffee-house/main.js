@@ -26,7 +26,7 @@ window.addEventListener('DOMContentLoaded', function () {
     const about = document.getElementById('about');
     const mobile = document.getElementById('mobile');
 
-    if (window.location.pathname === "/menu") {
+    if (window.location.href.includes("#menu")) {
         menu.style.display = 'block';
         offer.style.display = 'none';
         favorite.style.display = 'none';
@@ -40,7 +40,7 @@ window.addEventListener('DOMContentLoaded', function () {
         mobile.style.display = 'block';
     }
 
-    new LinkIcon(".menu_button", "Menu", "./public/coffee-cup.svg", "menu").render();
+    new LinkIcon(".menu_button", "Menu", "./public/coffee-cup.svg", "#menu").render();
 
 
     new Tabs(
