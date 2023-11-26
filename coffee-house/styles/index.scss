@@ -1,6 +1,13 @@
 @import "reset";
 @import "variables/global";
 
+.active{
+  display: block;
+}
+
+.inactive{
+  display: none;
+}
 
 .header {
   display: flex;

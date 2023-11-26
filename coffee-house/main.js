@@ -20,6 +20,25 @@ const createImgElement = (src, className, alt) => {
 
 
 window.addEventListener('DOMContentLoaded', function () {
+    const menu = document.getElementById('menu');
+    const offer = document.getElementById('offer');
+    const favorite = document.getElementById('favorite');
+    const about = document.getElementById('about');
+    const mobile = document.getElementById('mobile');
+
+    if (window.location.pathname === "/menu") {
+        menu.style.display = 'block';
+        offer.style.display = 'none';
+        favorite.style.display = 'none';
+        about.style.display = 'none';
+        mobile.style.display = 'none';
+    } else {
+        menu.style.display = 'none';
+        offer.style.display = 'block';
+        favorite.style.display = 'block';
+        about.style.display = 'block';
+        mobile.style.display = 'block';
+    }
 
     new LinkIcon(".menu_button", "Menu", "./public/coffee-cup.svg", "menu").render();
 
