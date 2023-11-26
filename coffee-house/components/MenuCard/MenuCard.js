@@ -15,7 +15,6 @@ class MenuCard {
         const element = document.createElement('div');
 
         if (this.classes.length === 0) {
-            console.log(this.classes.length === 0)
             this.classes = "menu__item";
             element.classList.add(this.classes);
         } else {
