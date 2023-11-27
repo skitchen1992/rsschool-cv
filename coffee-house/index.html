@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Coffee-house</title>
+</head>
+<body>
+<div id="app">
+	<header class="header container">
+		<div class="logo">
+			<img src="../../public/logo.svg" alt="Logo">
+		</div>
+		<nav class="nav">
+			<a class="a" href="#favorite">Favorite coffee</a>
+			<a class="a" href="#about">About</a>
+			<a class="a" href="#mobile">Mobile app</a>
+			<a class="a" href="#contacts">Contact us</a>
+		</nav>
+		<div class="menu_button"></div>
+	</header>
+	<main>
+		<section id="menu" class="container">
+			<div class="menu">
+				<h2 class="h2 text-dark text-center">
+					Behind each of our cups<br> hides an <span class="text-accent accent">amazing surprise</span>
+				</h2>
+				<div class="tabs_list"></div>
+				<div class="menu_list">
+				</div>
+			</div>
+		</section>
+		<section id="offer" class="container">
+			<div class="offer">
+				<div class="wrapper">
+					<h1 class="h1 text-light">
+						<span class="text-accent accent">Enjoy</span> premium coffee at our charming cafe
+					</h1>
+					<p class="medium text-light">
+						With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a
+						popular
+						destination for coffee lovers and those seeking a warm and inviting space to enjoy their
+						favorite
+						beverage.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section id="favorite" class="container mt-60">
+			<div class="favorite">
+				<h1 class="h2 text-dark">
+					Choose your <span class="text-accent accent">favorite</span> coffee
+				</h1>
+				<div class="slider"></div>
+				<h3 class="h3 text-dark text-center">
+					S’mores Frappuccino
+				</h3>
+				<p class="medium text-dark text-center mt-16 ">
+					This new drink takes an espresso and mixes it with brown sugar and cinnamon before being topped with
+					oat
+					milk.
+				</p>
+				<p class="h3 text-dark text-center mt-16 ">
+					$5.50
+				</p>
+				<div class="line-container">
+					<div class="line"></div>
+					<div class="line"></div>
+					<div class="line"></div>
+				</div>
+			</div>
+		</section>
+		<section id="about" class="container mt-60">
+			<div class="about">
+				<h1 class="h2 text-dark">
+					Resource is <span class="text-accent accent">the perfect and cozy place</span> where you can enjoy a
+					variety of hot beverages, relax, catch up
+					with friends, or get some work done.
+				</h1>
+				<div class="image-container">
+					<img class="item-1" src="./public/about-1.svg" alt="Image 1">
+					<img class="item-2" src="./public/about-2.svg" alt="Image 2">
+					<img class="item-3" src="./public/about-3.svg" alt="Image 3">
+					<img class="item-4" src="./public/about-4.svg" alt="Image 4">
+				</div>
+			</div>
+		</section>
+		<section id="mobile" class="container mt-60">
+			<div class="mobile">
+				<div class="info">
+					<h2 class="h2 text-dark">
+						<span class="text-accent accent">Download</span> our apps to start ordering
+					</h2>
+					<p class="medium text-dark mt-16 ">
+						Download the Resource app today and experience the comfort of ordering your favorite coffee from
+						wherever you are
+					</p>
+					<div class="button-group">
+						<a class="button-secondary">
+							<img src="./public/apple_dark.svg" alt="Apple">
+							<div>
+								<p class="caption text-left">Download on the</p>
+								<p>App Store</p>
+							</div>
+						</a>
+						<a class="button-secondary">
+							<img src="./public/google_dark.svg" alt="Google">
+							<div>
+								<p class="caption text-left">Get it on</p>
+								<p>Google Play</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="phone">
+					<img src="./public/mobile-screens.svg" alt="Image 4">
+				</div>
+			</div>
+		</section>
+	</main>
+	
+	<footer id="contacts" class="container mt-60">
+		<div class="contacts">
+			<div class="slogan">
+				<h2 class="h2 text-light">
+					Sip, Savor, Smile. <span class="text-accent">It’s coffee time!</span>
+				</h2>
+				<div class="social_media"></div>
+			</div>
+			<div class="info">
+				
+				<h3 class="h3 text-light">
+					Contact us
+				</h3>
+				
+				<a href="#" class="icon-link mt-40">
+					<img src="./public/pin-alt.svg" alt="Icon">
+					<p class="medium text-light">
+						8558 Green Rd., LA
+					</p>
+				</a>
+				
+				<a href="#" class="icon-link mt-16">
+					<img src="./public/phone.svg" alt="Icon">
+					<p class="medium text-light">
+						+1 (603) 555-0123
+					</p>
+				</a>
+				
+				<div class="mt-16">
+					<img src="./public/clock.svg" alt="Icon">
+					<p class="medium text-light">
+						Mon-Sat: 9:00 AM – 23:00 PM
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+<script type="module" src="/main.js"></script>
+</body>
+</html>
