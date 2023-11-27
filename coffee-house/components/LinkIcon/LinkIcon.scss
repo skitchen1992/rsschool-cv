@@ -1,0 +1,32 @@
+.link-icon{
+  position: relative;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  overflow: hidden;
+  font-size: var(--font-size-link-button);
+  line-height: var(--line-height-link-button);
+  font-weight: var(--font_weight-link-button);
+  font-family: var(--font-family);
+  text-decoration: none;
+  color: var(--text-color-dark);
+  cursor: pointer;
+}
+
+.link-icon::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: var(--text-color-dark);;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.3s ease;
+}
+
+.link-icon:hover::before {
+  width: 100%;
+}
+
+

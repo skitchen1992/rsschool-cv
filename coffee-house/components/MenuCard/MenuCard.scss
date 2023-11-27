@@ -1,0 +1,30 @@
+.menu__item {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  height: 506px;
+  border: 1px solid var(--border-color-light);
+  border-radius: 40px;
+  position: relative;
+
+
+  img {
+    width: 310px;
+    object-fit: cover;
+    border-radius: 40px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    :last-child {
+      position: absolute;
+      bottom: 10px;
+      left: 20px;
+    }
+  }
+}
+
+
